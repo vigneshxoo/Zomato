@@ -4,7 +4,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .mylist>:nth-child(3)>.icon {
   @apply hidden
@@ -26,4 +26,7 @@
 }
 .MuiAccordionDetails-root p{
   @apply text-[13px] opacity-60 font-fam tracking-widest  font-medium leading-6 p-3 text-start
+}
+.ul li{
+  @apply  flex items-center gap-1
 }

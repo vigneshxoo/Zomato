@@ -19,7 +19,7 @@ export const Home3 = () => {
                     {
                         home.map((val) => {
                             return (
-                                <div className=' w-[270px] h-80 relative'>
+                                <div data-aos="zoom-in"   data-aos-once="true" data-aos-duration="600" className=' w-[270px] h-80 relative cursor-pointer'>
                                     <img className='w-[270px] h-80 rounded' src={val.img} alt="" />
                                     <div className='w-full h-full bg-black absolute top-0 opacity-50'></div>
                                     <div className='absolute bottom-0 p-3'>

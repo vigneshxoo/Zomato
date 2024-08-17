@@ -3,7 +3,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { GoChevronRight } from "react-icons/go";
 export const Drop2 = () => {
     const [state, setstate] = useState("Italian")
-    const [fal, setfal] = useState(false)
+    const [fal, setfal] = useState(true)
     console.log(state)
     const list = ["English", "Turcke", "Proutcus", "indonoesion", "Espon", "Cestio", "Solvenchine", "Polish", "italian", "vetinasion"]
     return (

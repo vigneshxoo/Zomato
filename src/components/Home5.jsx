@@ -42,8 +42,8 @@ function mail (a){
           </div>
           <p className='font-fam opacity-40'>Download app from</p>
           <div className='flex gap-5'>
-            <img className='w-90 h-10' src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" />
-            <img className='w-90 h-10  ' src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" />
+            <img data-aos="zoom-in"   data-aos-once="true" data-aos-duration="600"  className='w-90 h-10' src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" />
+            <img data-aos="zoom-in"   data-aos-once="true" data-aos-duration="600"  className='w-90 h-10  ' src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="" />
           </div>
         </div>
 

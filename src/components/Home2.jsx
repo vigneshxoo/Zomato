@@ -7,8 +7,8 @@ export const Home2 = () => {
       {
         data.map((val) => {
           return (
-
-            <div className=' flex  w-  z-0'>
+  <div  data-aos="zoom-in">
+ <div   className=' flex  w-  z-0 hover:scale-105 duration-300'>
               <div className=' w-[370px]  relative  '>
                 <img className='w-full h-56 rounded-[10px]' src={val.img} alt="" />
                 <div className='absolute top-[150px]  w-full  h-20 text-sm font-medium bg-white  flex flex-col justify center items-cneter p-3 gap-2 shadow-2xl  rounded'>
@@ -18,6 +18,8 @@ export const Home2 = () => {
 
               </div>
             </div>
+  </div>
+           
           )
         })
       }

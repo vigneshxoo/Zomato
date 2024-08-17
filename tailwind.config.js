@@ -13,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         fam: ["Poppins", "sans-serif"],
+        rail: ["Raleway", "sans-serif"]
         
        },
      
@@ -21,3 +22,5 @@ module.exports = {
   plugins: [],
 }
 
+
+//

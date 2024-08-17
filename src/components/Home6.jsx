@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 // import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Fade from '@mui/material/Fade';
 import { IoIosArrowDown } from "react-icons/io";
+import { GoDotFill } from "react-icons/go";
 
 export default function AccordionTransition() {
   const [expanded, setExpanded] = React.useState(false);
@@ -42,7 +43,25 @@ export default function AccordionTransition() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className=''>
-          Bakery food near me  Beverages food near meBiryani food near meBurger food near meChinese food near meDesserts food near meIce Cream food near meJuices food near meMomos food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near meTea food near me
+        <ul className='grid grid-cols-5 gap-1 ul font-rail  font-medium' >
+          <li ><GoDotFill className='w-2 h-2' /> Bakery food near me </li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meBiryani  </li> 
+          <li> <GoDotFill className='w-2 h-2' />food near meBurger</li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meChinese </li>
+          <li> <GoDotFill className='w-2 h-2' />near meDesserts food</li>
+          <li> <GoDotFill className='w-2 h-2' />Cream  meJuices </li>
+          <li> <GoDotFill className='w-2 h-2' />food near meMomos </li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meMughlai  </li>
+          <li> <GoDotFill className='w-2 h-2' />meNorth Indian food </li>
+          <li> <GoDotFill className='w-2 h-2' /> mePizza food near</li>
+          <li> <GoDotFill className='w-2 h-2' /> meRolls food near  </li>
+          <li>  <GoDotFill className='w-2 h-2' />food near meSeafood</li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meShake</li>
+          <li> <GoDotFill className='w-2 h-2' />food near meSichuan </li>
+          <li>  <GoDotFill className='w-2 h-2' /> meSouth Indian r</li>
+          <li> <GoDotFill className='w-2 h-2' /> meStreet near meTea </li>
+          <li> <GoDotFill className='w-2 h-2' />food near me</li>
+</ul> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -56,7 +75,25 @@ export default function AccordionTransition() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near mePaan Shop near meQuick Bites near meShacks near meSweet Shops near me
+          <ul className='grid grid-cols-5 gap-1 ul font-rail  font-medium' >
+          <li ><GoDotFill className='w-2 h-2' /> Bakery food near me </li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meBiryani  </li> 
+          <li> <GoDotFill className='w-2 h-2' />food near meBurger</li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meChinese </li>
+          <li> <GoDotFill className='w-2 h-2' />near meDesserts food</li>
+          <li> <GoDotFill className='w-2 h-2' />Cream  meJuices </li>
+          <li> <GoDotFill className='w-2 h-2' />food near meMomos </li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meMughlai  </li>
+          <li> <GoDotFill className='w-2 h-2' />meNorth Indian food </li>
+          <li> <GoDotFill className='w-2 h-2' /> mePizza food near</li>
+          <li> <GoDotFill className='w-2 h-2' /> meRolls food near  </li>
+          <li>  <GoDotFill className='w-2 h-2' />food near meSeafood</li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meShake</li>
+          <li> <GoDotFill className='w-2 h-2' />food near meSichuan </li>
+          <li>  <GoDotFill className='w-2 h-2' /> meSouth Indian r</li>
+          <li> <GoDotFill className='w-2 h-2' /> meStreet near meTea </li>
+          <li> <GoDotFill className='w-2 h-2' />food near me</li>
+</ul> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -70,8 +107,25 @@ export default function AccordionTransition() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta sequi ratione quos excepturi numquam veniam dolorum veritatis id aperiam adipisci! Similique reiciendis earum neque et obcaecati tenetur unde voluptate.
-          
+          <ul className='grid grid-cols-5 gap-1 ul font-rail  font-medium' >
+          <li ><GoDotFill className='w-2 h-2' /> Bakery food near me </li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meBiryani  </li> 
+          <li> <GoDotFill className='w-2 h-2' />food near meBurger</li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meChinese </li>
+          <li> <GoDotFill className='w-2 h-2' />near meDesserts food</li>
+          <li> <GoDotFill className='w-2 h-2' />Cream  meJuices </li>
+          <li> <GoDotFill className='w-2 h-2' />food near meMomos </li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meMughlai  </li>
+          <li> <GoDotFill className='w-2 h-2' />meNorth Indian food </li>
+          <li> <GoDotFill className='w-2 h-2' /> mePizza food near</li>
+          <li> <GoDotFill className='w-2 h-2' /> meRolls food near  </li>
+          <li>  <GoDotFill className='w-2 h-2' />food near meSeafood</li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meShake</li>
+          <li> <GoDotFill className='w-2 h-2' />food near meSichuan </li>
+          <li>  <GoDotFill className='w-2 h-2' /> meSouth Indian r</li>
+          <li> <GoDotFill className='w-2 h-2' /> meStreet near meTea </li>
+          <li> <GoDotFill className='w-2 h-2' />food near me</li>
+</ul> 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -84,7 +138,27 @@ export default function AccordionTransition() {
           <Typography className='p-3 h-10'>Cities We Deliver To</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography > <h1>hi</h1>   </Typography>
+          <Typography >
+          <ul className='grid grid-cols-5 gap-1 ul font-rail  font-medium' >
+          <li ><GoDotFill className='w-2 h-2' /> Bakery food near me </li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meBiryani  </li> 
+          <li> <GoDotFill className='w-2 h-2' />food near meBurger</li> 
+          <li> <GoDotFill className='w-2 h-2' /> food near meChinese </li>
+          <li> <GoDotFill className='w-2 h-2' />near meDesserts food</li>
+          <li> <GoDotFill className='w-2 h-2' />Cream  meJuices </li>
+          <li> <GoDotFill className='w-2 h-2' />food near meMomos </li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meMughlai  </li>
+          <li> <GoDotFill className='w-2 h-2' />meNorth Indian food </li>
+          <li> <GoDotFill className='w-2 h-2' /> mePizza food near</li>
+          <li> <GoDotFill className='w-2 h-2' /> meRolls food near  </li>
+          <li>  <GoDotFill className='w-2 h-2' />food near meSeafood</li>
+          <li> <GoDotFill className='w-2 h-2' /> food near meShake</li>
+          <li> <GoDotFill className='w-2 h-2' />food near meSichuan </li>
+          <li>  <GoDotFill className='w-2 h-2' /> meSouth Indian r</li>
+          <li> <GoDotFill className='w-2 h-2' /> meStreet near meTea </li>
+          <li> <GoDotFill className='w-2 h-2' />food near me</li>
+</ul> 
+              </Typography>
         </AccordionDetails>
       </Accordion>
       </div>
